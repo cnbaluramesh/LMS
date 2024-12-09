@@ -1,9 +1,9 @@
 # 📚 LMS - Library Management System
 
-![Test Status](https://github.com/your-username/lms/actions/workflows/test.yml/badge.svg)
-![Build Status](https://github.com/your-username/lms/actions/workflows/docker-build-push.yml/badge.svg)
-![Docker Pulls](https://img.shields.io/docker/pulls/your-username/lms)
-![Docker Image Size](https://img.shields.io/docker/image-size/your-username/lms)
+![Test Status](https://github.com/cnbaluramesh/lms/actions/workflows/test.yml/badge.svg)
+![Build Status](https://github.com/cnbaluramesh/lms/actions/workflows/docker-build-push.yml/badge.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/cnbaluramesh/lms)
+![Docker Image Size](https://img.shields.io/docker/image-size/cnbaluramesh/lms)
 
 ---
 
