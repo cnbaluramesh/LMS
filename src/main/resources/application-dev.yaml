@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: lms
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3307/lms
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver

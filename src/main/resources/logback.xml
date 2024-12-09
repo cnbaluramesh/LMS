@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- Define Properties -->
+    <property name="LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n" />
+    <property name="LOG_DIR" value="logs" />
+    <property name="LOG_FILE" value="${LOG_DIR}/lms.log" />
+
+    <!-- Console Appender -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- File Appender with Rolling Policy -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_FILE}</file>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Roll logs daily -->
+            <fileNamePattern>${LOG_DIR}/lms.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!-- Retain logs for 30 days -->
+            <maxHistory>30</maxHistory>
+            <!-- Optional: Set max total size for old logs -->
+            <totalSizeCap>3GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Log Levels -->
+    <root level="info">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+
+    <!-- Example of package-specific logging -->
+    <logger name="com.collaberadigital.lms" level="debug" additivity="false">
+        <appender-ref ref="FILE" />
+    </logger>
+</configuration>
