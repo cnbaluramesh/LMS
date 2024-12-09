@@ -1,0 +1,77 @@
+1. Register Borrower (POST /api/borrowers)
+Description: Adds a new borrower to the system.
+
+
+curl -X POST http://localhost:8080/api/borrowers \
+-H "Content-Type: application/json" \
+-d '{
+  "email": "john.doe@example.com",
+  "name": "John Doe"
+}'
+---------------------------------------------------------
+
+2. Get All Borrowers (GET /api/borrowers)
+Description: Retrieves a list of all borrowers.
+
+curl -X GET http://localhost:8080/api/borrowers \
+-H "Accept: application/json"
+
+----------------------------------------------------------
+
+3. Get Borrower Details (GET /api/borrowers/{id})
+Description: Retrieves details of a specific borrower by their ID.
+
+curl -X GET http://localhost:8080/api/borrowers/1 \
+-H "Accept: application/json"
+
+----------------------------------------------------------
+
+4. Register Book (POST /api/books)
+Description: Adds a new book to the system.
+
+curl -X POST http://localhost:8080/api/books \
+-H "Content-Type: application/json" \
+-d '{
+  "isbn": "978-3-16-148410-0",
+  "title": "Effective Java",
+  "author": "Joshua Bloch",
+  "borrowerId": 1
+}'
+
+------------------------------------------------------------
+
+5. Get All Books (GET /api/books)
+Description: Retrieves a list of all books.
+
+curl -X GET http://localhost:8080/api/books \
+-H "Accept: application/json"
+
+--------------------------------------------------------------
+
+6. Get Book Details (GET /api/books/{id})
+Description: Retrieves details of a specific book by its ID.
+
+curl -X GET http://localhost:8080/api/books/1 \
+-H "Accept: application/json"
+
+------------------------------------------------------------
+
+7. Borrow a Book (POST /api/borrowers/{borrowerId}/borrow/{bookId})
+Description: Assigns a book to a borrower.
+
+curl -X POST http://localhost:8080/api/borrowers/1/borrow/1 \
+-H "Accept: application/json"
+
+-----------------------------------------------------------
+
+8. Return a Book (POST /api/borrowers/{borrowerId}/return/{bookId})
+Description: Removes a book assignment from a borrower.
+
+curl -X POST http://localhost:8080/api/borrowers/1/return/1 \
+-H "Accept: application/json"
+
+
+
+
+
+

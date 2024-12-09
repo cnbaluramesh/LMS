@@ -725,3 +725,413 @@ This generated password is for development use only. Your security configuration
 2024-12-09 14:53:28 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2024-12-09 14:53:28 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
 2024-12-09 14:53:43 [http-nio-8080-exec-2] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 187 ms
+2024-12-09 15:03:32 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BookControllerTest]: BookControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:03:32 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BookControllerTest
+2024-12-09 15:03:32 [Test worker] INFO  c.c.l.controller.BookControllerTest - Starting BookControllerTest using Java 17.0.11 with PID 24248 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:03:32 [Test worker] DEBUG c.c.l.controller.BookControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:03:32 [Test worker] INFO  c.c.l.controller.BookControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:03:34 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 246f99f0-9bb5-4cd5-bd9e-02c026e701aa
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:03:34 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:03:34 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:03:34 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:03:34 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-09 15:03:34 [Test worker] INFO  c.c.l.controller.BookControllerTest - Started BookControllerTest in 1.922 seconds (process running for 2.836)
+2024-12-09 15:03:34 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:03:34 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 15:03:34 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 24248 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:03:34 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:03:34 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:03:34 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 41e60975-6bec-4efb-aa9e-aabb9b515df3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:03:34 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:03:34 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:03:34 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:03:34 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-12-09 15:03:34 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 0.201 seconds (process running for 3.196)
+2024-12-09 15:06:31 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BookControllerTest]: BookControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:06:31 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BookControllerTest
+2024-12-09 15:06:32 [Test worker] INFO  c.c.l.controller.BookControllerTest - Starting BookControllerTest using Java 17.0.11 with PID 58148 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:06:32 [Test worker] DEBUG c.c.l.controller.BookControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:06:32 [Test worker] INFO  c.c.l.controller.BookControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:06:34 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2730888a-ee2a-4c34-ab15-88aa7751d8ab
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:06:34 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:06:34 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:06:34 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:06:34 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-12-09 15:06:34 [Test worker] INFO  c.c.l.controller.BookControllerTest - Started BookControllerTest in 2.232 seconds (process running for 3.069)
+2024-12-09 15:06:34 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:06:34 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 15:06:34 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 58148 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:06:34 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:06:34 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:06:34 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 451eac47-6837-4801-92b2-93e209b04b95
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:06:34 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:06:34 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:06:34 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:06:34 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-09 15:06:34 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 0.281 seconds (process running for 3.501)
+2024-12-09 15:08:43 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BookControllerTest]: BookControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:08:43 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BookControllerTest
+2024-12-09 15:08:44 [Test worker] INFO  c.c.l.controller.BookControllerTest - Starting BookControllerTest using Java 17.0.11 with PID 50276 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:08:44 [Test worker] DEBUG c.c.l.controller.BookControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:08:44 [Test worker] INFO  c.c.l.controller.BookControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:08:45 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a5932fc9-72e5-4e8b-a0a5-d3e26f77615f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:08:45 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:08:45 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:08:45 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:08:45 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-12-09 15:08:45 [Test worker] INFO  c.c.l.controller.BookControllerTest - Started BookControllerTest in 2.053 seconds (process running for 2.884)
+2024-12-09 15:08:46 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:08:46 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 15:08:46 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 50276 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:08:46 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:08:46 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:08:46 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 52a6de78-6f6b-472a-b2d3-a23defb7662e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:08:46 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:08:46 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:08:46 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:08:46 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-12-09 15:08:46 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 0.266 seconds (process running for 3.306)
+2024-12-09 15:14:41 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:14:41 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 15:14:41 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 12184 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:14:41 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:14:41 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:14:42 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 94d095ec-5118-41d4-92b9-4c916f929a5f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:14:42 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:14:42 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:14:42 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:14:42 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-09 15:14:42 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 1.087 seconds (process running for 3.244)
+2024-12-09 15:17:37 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:17:37 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 15:17:37 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 73760 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:17:37 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:17:37 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:17:38 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0e3f525b-db6e-4dcc-9dfa-9e680d9b9f7f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:17:38 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:17:38 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:17:38 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:17:38 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-09 15:17:38 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 1.097 seconds (process running for 3.144)
+2024-12-09 15:19:02 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:19:02 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 15:19:02 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 66896 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:19:02 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:19:02 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:19:03 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 68bc7e01-7eec-468b-be7e-d1c2d4a674c7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:19:03 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:19:03 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:19:03 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:19:03 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-12-09 15:19:03 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 1.046 seconds (process running for 2.877)
+2024-12-09 15:19:40 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:19:40 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 15:19:40 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 60524 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:19:40 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:19:40 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:19:41 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6148ec32-cddb-4542-9539-25a879ce509e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:19:41 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:19:41 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:19:41 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:19:41 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-09 15:19:41 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 1.083 seconds (process running for 2.979)
+2024-12-09 15:20:17 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:20:17 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 15:20:17 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 44176 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:20:17 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:20:17 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:20:18 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 770c61a1-c4e4-4ab2-b8af-12ef4095e8a2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:20:18 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:20:18 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:20:18 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:20:18 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-12-09 15:20:18 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 1.06 seconds (process running for 2.963)
+2024-12-09 15:23:23 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:23:23 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 15:23:23 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 70068 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:23:23 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:23:23 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:23:24 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0759d51c-ed2d-45a1-beb7-6dbf40c1d280
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:23:24 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:23:24 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:23:24 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:23:24 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-09 15:23:24 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 1.112 seconds (process running for 3.24)
+2024-12-09 15:25:55 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:25:55 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 15:25:56 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 57988 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:25:56 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:25:56 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:25:56 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6d397ac5-32f0-4556-8726-d21f87754ac6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:25:56 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:25:57 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:25:57 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:25:57 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-09 15:25:57 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 1.124 seconds (process running for 3.213)
+2024-12-09 15:56:54 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:56:54 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 15:56:55 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 69368 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:56:55 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:56:55 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:56:56 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 452372fd-29eb-4476-80a4-92e3fcf725b1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:56:56 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:56:56 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:56:56 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:56:56 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-09 15:56:56 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 1.256 seconds (process running for 3.424)
+2024-12-09 15:56:56 [Test worker] INFO  c.c.l.controller.BorrowerController - Request to get all borrowers
+2024-12-09 15:59:11 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 15:59:11 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 15:59:11 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 69756 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 15:59:11 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 15:59:11 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 15:59:12 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 150870cf-3da0-4dfa-ba00-b3c4da901efe
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 15:59:12 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 15:59:12 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 15:59:12 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 15:59:12 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-09 15:59:12 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 1.136 seconds (process running for 3.071)
+2024-12-09 15:59:12 [Test worker] INFO  c.c.l.controller.BorrowerController - Request to get all borrowers
+2024-12-09 16:00:35 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 16:00:35 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 16:00:35 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 10304 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 16:00:35 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 16:00:35 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 16:00:36 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 1ca45e0a-d541-486d-bc42-db33e5cfd6e7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 16:00:36 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 16:00:36 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 16:00:36 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 16:00:36 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-09 16:00:36 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 1.095 seconds (process running for 3.156)
+2024-12-09 16:00:36 [Test worker] INFO  c.c.l.controller.BorrowerController - Request to get all borrowers
+2024-12-09 16:01:41 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 16:01:41 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 16:01:42 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 70416 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 16:01:42 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 16:01:42 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 16:01:42 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 731c6c34-7cff-4d82-a395-9e9cbe8726f2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 16:01:43 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 16:01:43 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 16:01:43 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 16:01:43 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-09 16:01:43 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 1.139 seconds (process running for 3.24)
+2024-12-09 16:01:43 [Test worker] INFO  c.c.l.controller.BorrowerController - Request to get all borrowers
+2024-12-09 16:03:30 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 16:03:30 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 16:03:30 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 73576 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 16:03:30 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 16:03:30 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 16:03:31 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 9c2c9798-a68a-4557-92d7-735b68d9b38a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 16:03:31 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 16:03:31 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 16:03:31 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 16:03:31 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-12-09 16:03:31 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 1.115 seconds (process running for 3.186)
+2024-12-09 16:03:31 [Test worker] INFO  c.c.l.controller.BorrowerController - Request to get all borrowers
+2024-12-09 16:04:42 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.collaberadigital.lms.controller.BorrowerControllerTest]: BorrowerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-12-09 16:04:42 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.collaberadigital.lms.LmsApplication for test class com.collaberadigital.lms.controller.BorrowerControllerTest
+2024-12-09 16:04:42 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Starting BorrowerControllerTest using Java 17.0.11 with PID 18828 (started by Admin in D:\intellijWS\LMS)
+2024-12-09 16:04:42 [Test worker] DEBUG c.c.l.c.BorrowerControllerTest - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 16:04:42 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - The following 1 profile is active: "dev"
+2024-12-09 16:04:43 [Test worker] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2a3c2b8c-cdec-461b-b12e-2ddb5a46f156
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 16:04:43 [Test worker] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 16:04:43 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-09 16:04:43 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-09 16:04:43 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-09 16:04:43 [Test worker] INFO  c.c.l.c.BorrowerControllerTest - Started BorrowerControllerTest in 1.065 seconds (process running for 2.917)
+2024-12-09 16:04:43 [Test worker] INFO  c.c.l.controller.BorrowerController - Request to get all borrowers
+2024-12-09 16:12:47 [main] INFO  c.c.lms.LmsApplication - Starting LmsApplication using Java 17.0.11 with PID 42116 (D:\intellijWS\LMS\build\classes\java\main started by Admin in D:\intellijWS\LMS)
+2024-12-09 16:12:47 [main] DEBUG c.c.lms.LmsApplication - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 16:12:47 [main] INFO  c.c.lms.LmsApplication - The following 1 profile is active: "dev"
+2024-12-09 16:12:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09 16:12:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31 ms. Found 2 JPA repository interfaces.
+2024-12-09 16:12:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-09 16:12:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-09 16:12:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-09 16:12:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-09 16:12:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-09 16:12:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 952 ms
+2024-12-09 16:12:48 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09 16:12:48 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-09 16:12:48 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-09 16:12:48 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09 16:12:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-09 16:12:48 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ad40184
+2024-12-09 16:12:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-09 16:12:49 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09 16:12:49 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09 16:12:49 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 16:12:49 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 76a53b13-bf21-480d-8da6-2ed05449bccf
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 16:12:49 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 16:12:50 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-09 16:12:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-09 16:12:50 [main] INFO  c.c.lms.LmsApplication - Started LmsApplication in 3.426 seconds (process running for 3.793)
+2024-12-09 16:12:58 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-09 16:12:58 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-09 16:12:58 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-09 16:13:50 [main] INFO  c.c.lms.LmsApplication - Starting LmsApplication using Java 17.0.11 with PID 9220 (D:\intellijWS\LMS\build\classes\java\main started by Admin in D:\intellijWS\LMS)
+2024-12-09 16:13:50 [main] DEBUG c.c.lms.LmsApplication - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 16:13:50 [main] INFO  c.c.lms.LmsApplication - The following 1 profile is active: "dev"
+2024-12-09 16:13:51 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09 16:13:51 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+2024-12-09 16:13:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-09 16:13:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-09 16:13:51 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-09 16:13:51 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-09 16:13:51 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-09 16:13:51 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 805 ms
+2024-12-09 16:13:51 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09 16:13:51 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-09 16:13:51 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-09 16:13:51 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09 16:13:51 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-09 16:13:51 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ae9d0e4
+2024-12-09 16:13:51 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-09 16:13:52 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09 16:13:52 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09 16:13:52 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 16:13:52 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c076488b-fa7d-4641-aeb7-f6a9e9868377
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 16:13:52 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 16:13:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-09 16:13:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-09 16:13:53 [main] INFO  c.c.lms.LmsApplication - Started LmsApplication in 2.558 seconds (process running for 2.859)
+2024-12-09 16:13:58 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-09 16:13:58 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-09 16:13:58 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2024-12-09 16:14:13 [http-nio-8080-exec-2] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 193 ms
+2024-12-09 16:49:47 [main] INFO  c.c.lms.LmsApplication - Starting LmsApplication using Java 17.0.11 with PID 63228 (D:\intellijWS\LMS\build\classes\java\main started by Admin in D:\intellijWS\LMS)
+2024-12-09 16:49:47 [main] DEBUG c.c.lms.LmsApplication - Running with Spring Boot v3.3.6, Spring v6.1.15
+2024-12-09 16:49:47 [main] INFO  c.c.lms.LmsApplication - The following 1 profile is active: "dev"
+2024-12-09 16:49:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09 16:49:47 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2024-12-09 16:49:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-09 16:49:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-09 16:49:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-09 16:49:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-09 16:49:47 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-09 16:49:47 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 864 ms
+2024-12-09 16:49:48 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09 16:49:48 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-12-09 16:49:48 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-12-09 16:49:48 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09 16:49:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-09 16:49:48 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6acb45c1
+2024-12-09 16:49:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-09 16:49:49 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09 16:49:49 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09 16:49:49 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09 16:49:49 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d9b04705-0fde-4027-99a7-2dbe7be53378
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-09 16:49:49 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-12-09 16:49:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-09 16:49:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-09 16:49:49 [main] INFO  c.c.lms.LmsApplication - Started LmsApplication in 3.104 seconds (process running for 3.461)
